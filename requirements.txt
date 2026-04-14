@@ -1,0 +1,9 @@
+# Requirements for RPS_Racing_Game
+numpy
+opencv-python
+tflite_runtime
+
+# Notes:
+# - On Raspberry Pi, install `tflite_runtime` from the wheel provided by
+#   TensorFlow Lite for your OS/Python version. If unavailable, install
+#   full `tensorflow` (larger) or follow Pi-specific instructions in README.md.

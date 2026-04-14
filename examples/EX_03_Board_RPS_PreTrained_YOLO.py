@@ -3,7 +3,7 @@ import numpy as np
 import time
 import cv2
 
-modelPath = "best_float32.tflite"
+modelPath = "../models/best_float32.tflite"
 # modelPath = "best_float16.tflite"
 # modelPath = "best_full_integer_quant.tflite"
 # modelPath = "best_int8.tflite"
