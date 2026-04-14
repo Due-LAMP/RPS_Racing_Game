@@ -7,12 +7,13 @@
 
 ### 📁 Structure
 
+```text
 📦 Project
 ├── 📜 RPS_Racing_Game.py              # 메인 게임 실행 파일
 ├── 📜 requirements.txt                # 패키지 설치 파일
 ├── 📂 models/                         # TFLite 모델 보관
 └── 📂 examples/EX_01_Image_Capture.py # 캡처 테스트 스크립트
-
+```
 
 🚀 Quick Start
 
