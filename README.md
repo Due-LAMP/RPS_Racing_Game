@@ -111,6 +111,7 @@ pip install -r requirements.txt
 
 # 게임 실행
 python3 RPS_Racing_Game.py
+python3 RPS_Racing_Game_merged.py
 ```
 
 ### 조작법
