@@ -6,8 +6,8 @@ import math
 import threading
 
 # ─── Model Setup ──────────────────────────────────────────
-# modelPath = "best_float32.tflite"   # 10MB, 고정밀 but 느림
-modelPath = "models/best_float16.tflite"      # 5MB, float32과 거의 동일 정밀도 + 2x 빠른 로딩
+modelPath = "models/best_float32.tflite"   # 10MB, 고정밀 but 느림
+# modelPath = "models/best_float16.tflite"      # 5MB, float32과 거의 동일 정밀도 + 2x 빠른 로딩
 # modelPath = "best_full_integer_quant.tflite"  # 2.8MB, INT8 양자화
 print("model path:", modelPath)
 
