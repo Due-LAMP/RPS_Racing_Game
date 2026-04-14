@@ -13,7 +13,9 @@
 ├── 📂 models/                         # TFLite 모델 보관
 └── 📂 examples/EX_01_Image_Capture.py # 캡처 테스트 스크립트
 
+
 🚀 Quick Start
+
 Bash
 ```
 git clone <your-repo-url>
@@ -23,13 +25,11 @@ pip install -r requirements.txt
 python3 RPS_Racing_Game.py
 ```
 
+
 🍓 Raspberry Pi 성능 팁 & ⚠️ 트러블슈팅 (클릭)
 
-
 성능 최적화: 가장 빠른 CPU 추론을 위해 INT8 양자화 모델을 사용하세요.
-
 에러 해결: ModuleNotFoundError: tflite_runtime 발생 시, Pi 버전에 맞는 .whl 파일로 설치하거나 tensorflow로 대체해야 합니다.
-
 
 
 **UI / 원격 접속 참고**
